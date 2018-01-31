@@ -1,0 +1,36 @@
+/*style for Header 1 Title*/
+.title {
+	text-align:center;
+	font-size:50px;
+	color:white;
+}
+
+
+body {
+  background: url(../img/hpbg.jpg);
+  color:white;
+}
+
+/*style for correct answers*/
+.correct {
+	color:green;
+}
+
+/*style for incorrect answers*/
+.incorrect {
+	color:red;
+}
+
+/*style for question divs*/
+.form-group > div {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.1;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*style for h1 elements*/
+h1.correct, h1.incorrect {
+	width:250px;
+}
